@@ -93,6 +93,10 @@ p {
   text-align: center;
 }
 
+li {
+  line-height: 24pt;
+}
+
 /*------------LINKS----------------*/
 
 
@@ -272,9 +276,10 @@ li {
 }
 
 /*----Contact---------*/
-.linkCol{
+.linkCol {
   text-align: center;
 }
+
 .contactLink:hover {
   color: transparent;
   text-decoration: none;
@@ -359,8 +364,8 @@ li {
 }
 
 /*-------Media Queries-------*/
-@media screen and (max-width: 575.98px){
-  .linkCol{
+@media screen and (max-width: 575.98px) {
+  .linkCol {
     margin: 16px;
   }
 }
