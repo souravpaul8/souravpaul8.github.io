@@ -14,10 +14,13 @@
 </head>
 
 <body>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
   <!----Navigation Bar Sticky-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="/res/images/logo_circle.png" width="40" height="40" alt="">
+    <a class="navbar-brand contactLink" href="#">
+      <img src="/res/images/logo_circle.png" width="30" height="30" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,30 +29,31 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav nav-fill w-100">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#About">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#Education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#Experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#Skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#Projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
   <!----Hero Section Starts-->
+  <a name="Home"></a>
   <section class="hero">
     <div class="jumbotron jumbotron-fluid">
       <h1 class="line-1 anim-typewriter">Sourav Paul</h1>
@@ -58,6 +62,7 @@
   </section>
   <!----Hero Section Ends-->
   <!----About Starts-->
+  <a name="About"></a>
   <section class="container About">
     <div class="row justify-content-center">
       <h2>About</h2>
@@ -69,13 +74,57 @@
         </div>
       </div>
       <div class="col-md-8 align-self-center aboutText mycol">
-          <p>My name is Sourav Paul. I am a Full Stack developer. Intially I started out with Android Application development but ended up liking Backend development more and I am also into competitive programming.
-            I hold a bachelors in Electrical Engineering from BIT, Sindri but my interest lies in Computer Science.<br> I will be joining Schlumberger as Associate Full Stack Developer soon. </p>
+        <p>My name is Sourav Paul. I am a Full Stack developer. Intially I started out with Android Application
+          development but ended up liking Backend development more and I am also into competitive programming.
+          I hold a bachelors in Electrical Engineering from BIT, Sindri but my interest lies in Computer Science.<br> I
+          will be joining Schlumberger as Associate Full Stack Developer soon. </p>
       </div>
     </div>
   </section>
   <!----About Ends-->
+  <!----Edution Starts-->
+  <a name="Education"></a>
+  <section class="container Education">
+    <div class="row justify-content-center">
+      <h2>Education</h2>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-hover mx-auto w-auto">
+        <thead>
+          <tr>
+            <th scope="col">Year</th>
+            <th scope="col">Degree</th>
+            <th scope="col">Institue</th>
+            <th scope="col">SGPA/%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">2016-Present</td>
+            <td>Bachelor of Technology</td>
+            <td>B.I.T. Sindri</td>
+            <td>8.00</td>
+          </tr>
+          <tr>
+            <td scope="row">2014-2016</td>
+            <td>Class XII: CBSE Board</td>
+            <td>Delhi Public School, Bokaro Steel City</td>
+            <td>91.4</td>
+          </tr>
+          <tr>
+            <td scope="row">2002-2014</td>
+            <td>Class X: CICSE Board</td>
+            <td>De Nobili School, F.R.I.</td>
+            <td>92</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <!----Timeline Style-->
+  <!----Education Ends-->
   <!----Experience Starts-->
+  <a name="Experience"></a>
   <section class="container Experience">
     <div class="row justify-content-center">
       <h2>Experience</h2>
@@ -91,8 +140,10 @@
         <p>(Aug 2018 - Present)</p>
         <ul>
           <li>Started the Hackathon and Coding Club along with 5 others.</li>
-          <li>Main aim was to promote coding culture in our college and to teach juniors programming and software development.</li>
-          <li>Prepare students for Hackathons, Open Source Contribution and coding contest held at national and internation level.</li>
+          <li>Main aim was to promote coding culture in our college and to teach juniors programming and software
+            development.</li>
+          <li>Prepare students for Hackathons, Open Source Contribution and coding contest held at national and
+            internation level.</li>
           <li><a href="https://www.hnccbits.com/">HnCC Homepage</a></li>
         </ul>
       </div>
@@ -108,7 +159,8 @@
         <p>(Nov 2019)</p>
         <ul>
           <li>Hackatron was the first 24 hour national hackathon held at BIT Sindri.</li>
-          <li>Witnessed more than 200+ registrations out of which 18 teams were selected for the on-site Grand Finale.</li>
+          <li>Witnessed more than 200+ registrations out of which 18 teams were selected for the on-site Grand Finale.
+          </li>
           <li>Secured sponsorship from brands like TEQIP, Educative.io, CodingBlocks etc. </li>
           <li><a href="https://hackatron.hnccbits.com/">Hackatron Homepage</a></li>
         </ul>
@@ -133,54 +185,183 @@
     </div>
   </section>
   <!----Experience Ends-->
-  <!----Edution Starts-->
-  <section class="container Education">
-    <div class="row justify-content-center">
-      <h2>Education</h2>
-    </div>
-    <!----Timeline Style-->
-  </section>
-  <!----Education Ends-->
   <!----Skills Starts-->
+  <a name="Skills"></a>
   <section class="container Skills">
     <div class="row justify-content-center">
       <h2>Skills</h2>
     </div>
     <div class="row">
-      <div class="col-4 col1Skills">
+      <div class="col-md-6 col1Skills">
+        <div class="bar-1">
+          <div class="title">C/C++</div>
+          <div class="bar" data-width="90%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Java</div>
+          <div class="bar" data-width="75%">
+            <div class="bar-inner">
+            </div>
+          </div>
+
+        </div>
+        <div class="bar-1">
+          <div class="title">Javascript</div>
+          <div class="bar" data-width="70%">
+            <div class="bar-inner">
+
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">HTML</div>
+          <div class="bar" data-width="90%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">CSS</div>
+          <div class="bar" data-width="80%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Bootstrap</div>
+          <div class="bar" data-width="80%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Android</div>
+          <div class="bar" data-width="85%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-4 col2Skills">
+      <div class="col-md-6 col2Skills">
+        <div class="bar-1">
+          <div class="title">MySQL</div>
+          <div class="bar" data-width="80%">
+            <div class="bar-inner">
+            </div>
+          </div>
+
+        </div>
+        <div class="bar-1">
+          <div class="title">Firebase</div>
+          <div class="bar" data-width="85%">
+            <div class="bar-inner">
+
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">VCS</div>
+          <div class="bar" data-width="85%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Data Structures</div>
+          <div class="bar" data-width="90%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Algorithm</div>
+          <div class="bar" data-width="80%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Operating Systems</div>
+          <div class="bar" data-width="75%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
+        <div class="bar-1">
+          <div class="title">Computer Networks</div>
+          <div class="bar" data-width="75%">
+            <div class="bar-inner">
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </section>
   <!----Skills Ends-->
   <!----Projects Starts-->
+  <a name="Projects"></a>
   <section class="container Projects">
     <div class="row justify-content-center">
       <h2>Projects</h2>
     </div>
-    <div class="row Project1">
-      <div class="col-4 image">
+    <div class="row justify-content-center Project1">
+      <div class="col-md-4 mycol">
         <div class="row justify-content-center">
-
+          <img class="projectImage" src="/res/images/project1.jpg" width="200" height="320" alt="hncc-logo">
         </div>
       </div>
-      <div class="col-4 description">
-        <div class="row justify-content-center">
-
-        </div>
+      <div class="col-md-8 align-self-center mycol description">
+        <p class="projectHeading">Track contractor’s claim over stoppage of work due to natural phenomenons</p>
+        <p>(Feb 2019 - Mar 2019)</p>
+        <ul>
+          <li>Built an android app where the Contractor registers his/her details along with the tender ID.</li>
+          <li>The location of the contractor is tracked using GPS and weather is verified at his coordinates using the
+            historical weather API. This verified data is stored in the Firebase database.</li>
+          <li>These data are also shown in the administrator's panel which is a web interface.</li>
+          <li>Languages Used - Java, XML, Firebase</li>
+          <li><a href="https://github.com/souravpaul8/MoRTH">https://github.com/souravpaul8/MoRTH</a></li>
+        </ul>
       </div>
     </div>
-    <div class="row Project2">
-      <div class="col-4 image">
+    <div class="row justify-content-center Project2">
+      <div class="col-md-4 mycol">
         <div class="row justify-content-center">
-
+          <img class="projectImage" src="/res/images/android-logo.svg" width="250" height="250" alt="android-logo">
         </div>
       </div>
-      <div class="col-4 description">
+      <div class="col-md-8 align-self-center mycol description">
+        <p class="projectHeading">Marketing Platform for Agricultural Commodities</p>
+        <p>(Feb 2018 - March 2018)</p>
+        <ul>
+          <li>Built a unified platform for producers, consumers, and transporters.</li>
+          <li> Presented this Android application at Smart India Hackathon 2018 Grand Finale</li>
+          <li>Used Firebase as the backend system for the Android App.</li>
+          <li>Implemented 3 different interfaces for 3 types of user and integrated Google Maps API, Weather API, etc.
+          </li>
+          <li>Created using Android Studio and programmed using XML and JAVA.</li>
+          <li><a href="https://github.com/souravpaul8/Aarunya">https://github.com/souravpaul8/Aarunya</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center Project3">
+      <div class="col-md-4 mycol">
         <div class="row justify-content-center">
-
+          <img class="projectImage" src="/res/images/android-logo.svg" width="250" height="250" alt="android-logo">
         </div>
+      </div>
+      <div class="col-md-8 align-self-center mycol description">
+        <p class="projectHeading">Learn Bengali Android Application</p>
+        <p>(Feb 2018 - March 2018)</p>
+        <ul>
+          <li>Can be used by English speakers to learn Bengali.</li>
+          <li> It contains the translation of English words in Bengali (in English) with pronunciations.</li>
+          <li>Implemented MediaPlayer Class and other important concepts of Android.</li>
+          <li>Created using Android Studio and programmed using XML and Java..</li>
+          <li><a href="https://github.com/souravpaul8/Learn_Bengali">https://github.com/souravpaul8/Learn_Bengali</a>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
@@ -191,28 +372,85 @@
       <h2>Acheivements</h2>
     </div>
     <div class="row justify-content-center">
-
+      <ul class="acheivements">
+        <li>Among the top 2.5 % with AIR 2400 and GATE score 570 in GATE
+          CSE 2020</li>
+        <li>Among the top 4% team and finalist of Smart India Hackathon
+          2019</li>
+        <li>Among top 11% team and finalist of Smart India Hackathon 2018</li>
+        <li>Among the top 5 % with 87% marks in Database Management Systems NPTEL Certification examination</li>
+        <li>Elect member of Student Council, De Nobili School, F.R.I</li>
+        <li>Represented De Nobili School in U-16 Inter-School Cricket Tournament</li>
+        <li>Won various competitions ranging from cricket and sports to
+          exhibition, quizzes, salad making, etc.</li>
+      </ul>
     </div>
   </section>
   <!----Acheivement Ends-->
   <!----Contact Starts-->
+  <a name="Contact"></a>
   <section class="container Contact">
     <div class="row justify-content-center">
       <h2>Contact Me</h2>
     </div>
     <div class="row justify-content-center">
-      
+      <div class="col-md-2">
+        <a class="contactLink" href="https://www.facebook.com/souravpaul9835">
+          <img src="/res/images/facebook-logo.png" width="30" height="30" alt="">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a class="contactLink" href="https://www.instagram.com/sourav_paul8/">
+          <img src="/res/images/instagram-logo.png" width="30" height="30" alt="">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a class="contactLink" href="https://www.linkedin.com/in/souravpaul8/">
+          <img src="res/images/linkedin-logo2.png" width="30" height="30" alt="">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a class="contactLink" href="https://github.com/souravpaul8">
+          <img src="res/images/github-logo1.svg" width="30" height="30" alt="">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a class="contactLink" href="mailto:souravpaul@protonmail.com">
+          <img src="/res/images/email-logo.png" width="30" height="30" alt="">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a class="contactLink" href="https://drive.google.com/file/d/1MXtimj0V6ScCxoi2BwWBS32JeK5ebMX6/view">
+          <img src="/res/images/drive-logo.png" width="30" height="30" alt="">
+        </a>
+      </div>
     </div>
   </section>
   <!----Contact Ends-->
   <!----Footer Starts-->
-  <section class="footer">
-
-  </section>
+  <footer class="page-footer font-small myfooter">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright : Sourav Paul
+    </div>
+    <!-- Copyright -->
+  </footer>
   <!----Footer Ends-->
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+  <script type="text/javascript">
+    $(".bar").each(function () {
+      $(this).find(".bar-inner").animate({
+        width: $(this).attr("data-width")
+      }, 2000)
+    });
+  </script>
 </body>
 
 </html>
