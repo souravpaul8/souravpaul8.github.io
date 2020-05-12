@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/res/styles.css">
+  <link rel="stylesheet" href="/res/css/styles.css">
   <title>Sourav Paul</title>
 
 </head>
@@ -19,9 +19,7 @@
   </div>
   <!----Navigation Bar Sticky-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand contactLink" href="#">
       <img src="/res/images/logo_circle.png" width="30" height="30" alt="">
-    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav nav-fill w-100">
         <li class="nav-item">
-          <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#Home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#About">About</a>
@@ -45,6 +43,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Achievements">Achievements</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Contact">Contact</a>
@@ -299,9 +300,9 @@
         </div>
       </div>
   </section>
+  <div><a name="Projects"></a></div>
   <!----Skills Ends-->
   <!----Projects Starts-->
-  <a name="Projects"></a>
   <section class="container Projects">
     <div class="row justify-content-center">
       <h2>Projects</h2>
@@ -364,12 +365,14 @@
         </ul>
       </div>
     </div>
+    <a name="Achievements"></a>
   </section>
   <!----Project Ends-->
   <!----Aceivement Starts-->
+  
   <section class="container Acheivements">
     <div class="row justify-content-center">
-      <h2>Acheivements</h2>
+      <h2>Achievements</h2>
     </div>
     <div class="row justify-content-center">
       <ul class="acheivements">
@@ -394,32 +397,32 @@
       <h2>Contact Me</h2>
     </div>
     <div class="row justify-content-center">
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="https://www.facebook.com/souravpaul9835">
           <img src="/res/images/facebook-logo.png" width="30" height="30" alt="">
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="https://www.instagram.com/sourav_paul8/">
           <img src="/res/images/instagram-logo.png" width="30" height="30" alt="">
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="https://www.linkedin.com/in/souravpaul8/">
           <img src="res/images/linkedin-logo2.png" width="30" height="30" alt="">
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="https://github.com/souravpaul8">
           <img src="res/images/github-logo1.svg" width="30" height="30" alt="">
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="mailto:souravpaul@protonmail.com">
           <img src="/res/images/email-logo.png" width="30" height="30" alt="">
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 linkCol">
         <a class="contactLink" href="https://drive.google.com/file/d/1MXtimj0V6ScCxoi2BwWBS32JeK5ebMX6/view">
           <img src="/res/images/drive-logo.png" width="30" height="30" alt="">
         </a>
@@ -430,7 +433,8 @@
   <!----Footer Starts-->
   <footer class="page-footer font-small myfooter">
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright : Sourav Paul
+    <div class="footer-copyright text-center py-3"><p>Built with &#10084; by Sourav Paul<br>
+      © 2020 Copyright : Sourav Paul</p>
     </div>
     <!-- Copyright -->
   </footer>
@@ -449,6 +453,11 @@
       $(this).find(".bar-inner").animate({
         width: $(this).attr("data-width")
       }, 2000)
+    });
+  </script>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
     });
   </script>
 </body>
