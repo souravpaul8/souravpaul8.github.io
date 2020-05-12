@@ -63,6 +63,7 @@ h3 {
   text-align: center;
 }
 
+
 h2:after {
   display: block;
   height: 2px;
@@ -73,6 +74,20 @@ h2:after {
   margin-top: 30px;
   margin-bottom: 20px;
 
+}
+h3:after{
+  display: block;
+  height: 1px;
+  background-color: #e67e22;
+  content: "";
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+p{
+  font-size: 80%;
+  text-align: center;
 }
 
 /*------------LINKS----------------*/
@@ -87,7 +102,7 @@ a:hover {
 
 /*--------Jumbotron---------------*/
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/res/images/heroImage4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/res/images/heroImage5.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -102,7 +117,7 @@ a:hover {
   width: 24em;
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, .75);
-  font-size: 240%;
+  font-size: 220%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -143,7 +158,7 @@ a:hover {
   margin: 0 auto;
   color: #fff;
   border-right: 2px solid rgba(255, 255, 255, .75);
-  font-size: 80%;
+  font-size: 70%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -176,3 +191,31 @@ a:hover {
   }
 }
 
+/*-----Experimentation------*/
+ .container{
+  /* border: 2px solid red; */
+  margin-bottom:20px;
+}
+.row {
+  /* border: 2px dotted blue; */
+}
+
+.mycol {
+  /* border: solid green; */
+  padding: 30px;
+}
+
+/*------About Section----*/
+.aboutText {
+  padding: 40px;
+}
+.image {
+  padding:40px;
+  border-radius: 50%;
+}
+
+/*------Experience--------*/
+li {
+  text-align: left;
+  font-size: 80%;
+}
