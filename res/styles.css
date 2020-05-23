@@ -291,14 +291,23 @@ li {
 /*----Contact---------*/
 .linkCol {
   text-align: center;
+  transition: transform .2s;
 }
 
+.linkCol:hover {
+  transform: scale(1.5);
+}
 .contactLink:hover {
   color: transparent;
   text-decoration: none;
   padding-bottom: none;
   border-bottom: none;
   margin: 4px;
+}
+
+/*-------Footer----------*/
+#phoneNumber {
+  color: #fff;
 }
 
 /*------Preloader--------*/
