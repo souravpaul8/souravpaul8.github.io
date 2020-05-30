@@ -306,7 +306,7 @@ li {
 }
 
 /*-------Footer----------*/
-#phoneNumber {
+#phoneNumber,#email {
   color: #fff;
 }
 
