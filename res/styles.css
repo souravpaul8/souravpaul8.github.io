@@ -61,7 +61,6 @@ h2 {
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 
@@ -77,16 +76,6 @@ h2:after {
 
 }
 
-h3:after {
-  display: block;
-  height: 1px;
-  background-color: #e67e22;
-  content: "";
-  width: 200px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
 
 p {
   font-size: 75%;
@@ -223,15 +212,11 @@ td{
   font-size: 70%;
 }
 
-.description p {
-  text-align: center;
-}
 /*------Experience--------*/
 li {
   text-align: left;
   font-size: 75%;
 }
-
 /*-----Skills---------*/
 .title {
   font-weight: normal;
